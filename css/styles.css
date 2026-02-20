@@ -1,0 +1,48 @@
+
+h1, h3 {
+    padding-left: 10px;
+}
+.table-bordered {
+    padding-left: 10px;
+    
+}
+.card-img-top {
+	max-width: 50%;
+    max-height: 50%;
+	height: auto;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card-body p {
+    padding-top: 10px;
+    
+}
+.card {
+    width: 100%;
+    height: 50%;
+}
+
+
+/* Ensure images inside Bootstrap cards don't overflow */
+.card img {
+	max-width: 100%;
+	height: auto;
+}
+
+#booking {
+background: #eef7f5;
+padding: 50px 20px;
+text-align: center;
+}
+#booking h2 {
+color: #000202;
+margin-bottom: 25px;
+}
